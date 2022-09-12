@@ -3,7 +3,6 @@ import dash_mantine_components as dmc
 from dash import Dash, Input, Output, State, dcc, html, callback
 import plotly.express as px
 import pandas as pd
-import plotly.io as pio
 
 from data_etl import df_raw
 
