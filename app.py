@@ -12,6 +12,7 @@ from utils import (
 )
 
 app = Dash(__name__, use_pages=True)
+server = app.server
 
 sidebar = dmc.Navbar(
     fixed=True,
@@ -93,4 +94,4 @@ def modal_demo(nc1, opened):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server()
